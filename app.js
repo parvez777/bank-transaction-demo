@@ -31,10 +31,10 @@ document.getElementById('withdraw').addEventListener("click", function(){
     document.getElementById('withdraw-balance').innerText = withdrawBalance;
 
     var totalBalance = document.getElementById('total-balance').innerText;
-    var totalBalance2  = parseInt(totalBalance2)
+    var totalBalance2  = parseInt(totalBalance)
 
     var totalAmountBalance = totalBalance2 - withdrawAmount2;
 
-    document.getElementById('total-balance').this.innerText = totalBalanceAmount;
+    document.getElementById('total-balance').innerText = totalAmountBalance;
     document.getElementById('withdraw-input').value = '';
 })
